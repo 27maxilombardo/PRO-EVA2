@@ -1,0 +1,131 @@
+:root{
+    --color1: #000;
+    --color2: orange;
+    --color3: whitesmoke;
+
+}
+/*Estilos generales*/
+*{
+    margin-right: 0px;
+    margin-left: 0px;
+    border: 0px;
+    padding: 0px;
+    border-right: 0px;
+}
+
+/*tamaño foto index*/
+.foto{
+    width: 850px;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+
+}
+/*configuración de la navbar*/
+.container-fluid{
+    align-items: center;
+    background-color:var(--color1);
+    border: 0px;
+    display: flex;
+    margin: -8px;
+    padding: 0px;
+    border-right: 0vh;
+    color: var(--color2);
+    
+}
+/*color texto navbar*/
+.nav-link{
+    color: var(--color2);
+}
+/*configuración bloque de contacto*/
+.contc{
+    color: var(--color2);
+    display: flex;
+    padding: 50px;
+    
+}
+/*margin del slide*/
+.slide1{
+    margin-top: 8vh;
+}
+/*configuración altura de texto en el slide*/
+.texto1{
+    margin-top: 50px;
+}
+/*configuración del botón en el slide*/
+.button{
+    padding: 70px;
+    border: 20vh;
+    border: solid;
+}
+/*configuración foto detalle */
+.detalle{
+    height: 900px;
+    margin: auto;
+    width: 130vh;
+    display: flex;
+    border-radius: 10px;
+    align-content: auto;
+}
+/*color del fondo de la imagen*/
+.foto{
+    background-color: var(--color1);
+}
+.textodetalle{
+    border: solid;
+    color: var(--color3);
+    align-items: normal;
+    font-size: large;
+    font-weight: bolder;
+    align-content: end;
+}
+/*configuración carta detalle*/
+.carta{
+    background-color: var(--color1);
+    color: var(--color3);
+    display: block;
+}
+/*configuracion del slide*/
+.slide{
+    display: flex;
+}
+/*configuracion de la foto*/
+.fotoindex{
+    display: flex;
+    
+}
+@media screen and (max-width:1328px){
+    .container-fluid{
+        background-color: var(--color1);
+        background-position: 50%;
+    }
+    .contc{
+        background-color: var(--color1);
+        background-position: 50%;
+    }
+    .foto{
+        background-color: var(--color1);
+        background-position: 50%;
+    }
+}
+@media screen and (max-width:960px){
+    .container-fluid{
+        background-color: var(--color2);
+        background-position: 50%;
+    }
+    .nav-link{
+        color: var(--color1);
+        text-align: center;
+    }
+    .foto{
+        background-color: var(--color2);
+    }
+    .contc{
+        color: var(--color1);
+    }
+    .fotoindex{
+        align-content: end;
+        padding-left: 30px;
+    }
+}
+    
